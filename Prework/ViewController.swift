@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         //get bill amount from text input
         let bill = Double(billAmountTextField.text!) ?? 0
         
-        //Sets array for percentages to use in calculation
+        //Sets array with percentages to use in calculation
         let tipPercentages = [0.15, 0.18, 0.2]
         
         //calculates tip using the array with the sliding bar as an index
